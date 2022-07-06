@@ -1,0 +1,10 @@
+name: "{{.BotName}}"
+description: My Awesome Telegram (Dart) Bot
+version: 0.1.0
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  botway_dart: ^0.1.0
+  teledart: ^0.3.4
