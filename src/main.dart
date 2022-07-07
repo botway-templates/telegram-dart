@@ -11,7 +11,9 @@ void main() async {
 
   teledart
       .onCommand("start")
-      .listen((message) => message.reply("Hello " + username));
+      .listen((message) => message.reply("Hello Telegram"));
 
   teledart.start();
+
+  print("Bot started");
 }
